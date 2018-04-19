@@ -9,3 +9,13 @@ Input data are expected to be nucleotide count tables in csv format (row: positi
   
  ## Example data
  Example input data are provided in the *nucleotideCounts* archive. Corresponding DeMinEr output reports are provided in the *reports* archive.
+
+ ## Required Python packages
+ DeMinEr is provided as python3 scripts and can be easily run with a Jupyter notebook. It calls packages:
+  - os,
+  - re,
+  - numpy,
+  - matplotlib,
+  - biopython,
+  - wand,
+  - reportlab.
