@@ -5,4 +5,7 @@ Input data are expected to be nucleotide count tables in csv format (row: positi
 ## To process data with DeMiner:
   - clone or download repository,
   - unzip *nucleotideCounts* archive to get sample data, or create *nucleotideCounts* sub-directory and copy your own data.
-  - open the *RunDeMiner* Jupyter notebook and run relevant cells. The python source files *DeMinEr.py* and *DeMinErReport.py* should be either in the working directory or in the PYTHONPATH.
+  - open the *RunDeMiner.ipynb* Jupyter notebook and run relevant cells. The python source files *DeMinEr.py* and *DeMinErReport.py* should be either in the working directory or in the PYTHONPATH. Sequence fasta should be in working directory.
+  
+ ## Example data
+ Example input data are provided in the *nucleotideCounts* archive. Corresponding DeMinEr output reports are provided in the *reports* archive.
